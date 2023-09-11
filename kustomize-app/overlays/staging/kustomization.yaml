@@ -6,4 +6,3 @@ bases:
 - ../../base
 patchesStrategicMerge:
 - config-map.yaml
-
