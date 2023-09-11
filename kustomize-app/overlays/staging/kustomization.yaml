@@ -1,7 +1,9 @@
 namePrefix: staging-
 commonLabels:
   variant: staging
+  instana-autotrace: true
 bases:
 - ../../base
 patchesStrategicMerge:
 - config-map.yaml
+- label.yaml
